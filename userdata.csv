@@ -1,0 +1,10 @@
+email,password,confirm_password,first_name,last_name,country_code,phone,role
+email+9993@domain.com,Test123@ee,Test123@ee, Sheemal, Sheemal,91,9012078654,user
+email+9995@domain.com,Test123@ee,Test123@ee, Sheemal, Sheemal,91,9012338654,user
+email+9973@domain.com,Test123@ee,Test123@ee, Sheemal, Sheemal,91,9012070054,user
+email+7993@domain.com,Test123@ee,Test123@ee, Sheemal, Sheemal,91,9012999654,user
+email+9093@domain.com,Test123@ee,Test123@ee, Sheemal, Sheemal,91,901200654,user
+email+9963@domain.com,Test123@ee,Test123@ee, Sheemal, Sheemal,91,9012333654,user
+email+9493@domain.com,Test123@ee,Test123@ee, Sheemal, Sheemal,91,9019078654,user
+email+0993@domain.com,Test123@ee,Test123@ee, Sheemal, Sheemal,91,9000098654,user
+email+8993@domain.com,Test123@ee,Test123@ee, Sheemal, Sheemal,91,9015558654,user

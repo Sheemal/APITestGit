@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "d8d5f8da-faee-4389-acd6-13e170642967",
+		"name": "Signup Limber",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Valid_Firstname_Last_name",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"password\": \"{{password}}\",\r\n  \"role\": \"{{role}}\",\r\n  \"email\": \"{{email}}\",\r\n  \"first_name\": \"{{first_name}}\",\r\n  \"last_name\": \"{{last_name}}\",\r\n  \"country_code\": {{country_code}},\r\n  \"phone\": \"{{phone}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseURL}}api/authentication/register/",
+					"host": [
+						"{{protocol}}{{baseURL}}api"
+					],
+					"path": [
+						"authentication",
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
